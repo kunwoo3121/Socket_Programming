@@ -9,7 +9,7 @@
 ```
 
 ## client 프로그램
-```.
+```.c
 #include<sys/types.h>
 #include<sys/socket.h>
 #include<stdio.h>
@@ -126,10 +126,10 @@ int main()
 ```
 
 ## 실행 결과 
-* Client의 화면
+* Client의 화면  
 ![client](https://user-images.githubusercontent.com/28796089/100019368-41f05500-2e21-11eb-8390-d208b05335bc.JPG)  
   
-* Server의 화면
+* Server의 화면  
 ![server](https://user-images.githubusercontent.com/28796089/100019371-4288eb80-2e21-11eb-9788-30581c469604.JPG)  
   
 ```

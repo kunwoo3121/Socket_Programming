@@ -6,9 +6,10 @@
 ```
 1) Client 프로그램에서 문자열을 입력하면 Server 프로그램에서 그 문자열을 출력한다.
 2) Client 프로그램에서 quit을 입력하면 client와 server 프로그램 모두 종료한다.
+```
 
 ## client 프로그램
-```
+```.
 #include<sys/types.h>
 #include<sys/socket.h>
 #include<stdio.h>
@@ -63,7 +64,7 @@ int main()
 ```
 
 ## server 프로그램
-```
+```.c
 #include<sys/types.h>
 #include<sys/socket.h>
 #include<stdio.h>
